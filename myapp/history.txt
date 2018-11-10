@@ -1,0 +1,1010 @@
+ 1175  service odoo-server stop
+ 1176  rm -f /etc/odoo-server.conf
+ 1177  sudo rm -f /etc/odoo.conf
+ 1178  rm -f /etc/odoo-server.conf
+ 1179  sudo rm -f /etc/odoo.conf
+ 1180  sudo rm -f /etc/odoo-server.conf
+ 1181  sudo update-rc.d -f odoo-server remove
+ 1182  sudo rm -f /etc/init.d/odoo-server
+ 1183  sudo rm -R /var/log/odoo
+ 1184  sudo service postgresql stop
+ 1185  apt-get remove postgresql -y
+ 1186  apt-get --purge remove postgresql\* -y
+ 1187  rm -r -f /etc/postgresql/
+ 1188  rm -r -f /etc/postgresql-common/
+ 1189  sudo rm -r -f /var/lib/postgresql/
+ 1190  sudo -s
+ 1191  sudo service postgresql stop
+ 1192  apt-get remove postgresql -y
+ 1193  userdel -r postgres
+ 1194  groupdel postgres
+ 1195  rm -r /etc/postgresql-9.1/pg_hba.conf.
+ 1196  cd /odoo/odoo-server/cd
+ 1197  update-rc.d -f odoo-server remove
+ 1198  sudo rm -f /etc/init.d/odoo-server
+ 1199  userdel -r postgres
+ 1200  groupdel postgres
+ 1201  sudo apt-get remove postgresql -y
+ 1202  sudo apt-get --purge remove postgresql\* -y
+ 1203  groupdel postgressudo rm -r -f /var/lib/postgresql/
+ 1204  sudo rm -r -f /var/lib/postgresql/
+ 1205  sudo rm -r -f /etc/postgresql-common/
+ 1206  sudo rm -r -f /etc/postgresql/
+ 1207  sudo apt-get --purge remove postgresql\* -y
+ 1208  sudo apt-get remove postgresql -y
+ 1209  deluser odoo
+ 1210  apt autoremove odoo
+ 1211  sudo apt-get --purge remove -y odoo
+ 1212  sudo apt-get --purge -f remove -y postgresql postgresql\*
+ 1213  sudo apt-get -y autoremove
+ 1214  sudo rm -rf /usr/lib/python2.7/dist-packages/openerp/
+ 1215  sudo rm -rf /var/log/odoo
+ 1216  sudo rm -rf /etc/odoo /etc/profile.d/odootools.sh /etc/bash_completion/odoo /etc/cron.daily/db_backup
+ 1217  sudo rm -rf /var/lib/postgresql /etc/postgresql /etc/postgresql-common /var/cache/postgresql/ /usr/share/postgresql-common/ /usr/share/postgresql /var/log/postgresql /usr/lib/postgresql 
+ 1218  sudo userdel -rf postgresq
+ 1219  sudo groupdel postgresql
+ 1220  sudo userdel -rf odoo
+ 1221  sudo groupdel odoo
+ 1222  cd /odoo/
+ 1223  ls
+ 1224  cd 
+ 1225  sudo apt update && sudo apt upgrade
+ 1226  ls
+ 1227  ideal
+ 1228  idea
+ 1229  11
+ 1230  ll
+ 1231  sdk install kotlin
+ 1232  kotlinc hello.kt -include-runtime -d hello.jar
+ 1233  java -jar hello.jar
+ 1234  kotlinc -help
+ 1235  kotlinc hello.kt -d hello.jar
+ 1236  kotlin-jvm
+ 1237  kotlinc-jvm
+ 1238  java -version
+ 1239  whereis java
+ 1240  mkfir kotlin_book
+ 1241  mkdir kotlin_material
+ 1242  cd kotlin_material/
+ 1243  git clone https://github.com/denisftw/modern-web-kotlin.git
+ 1244  cd
+ 1245  git clone https://github.com/Kotlin/kotlin-koans
+ 1246  curl -s https://get.sdkman.io | bash
+ 1247  sdk install kotlin
+ 1248  sudo sdk install kotlin
+ 1249  curl -s https://get.sdkman.io | bash
+ 1250  sdk selfupdate force
+ 1251  ls 
+ 1252  ls ***ats***
+ 1253  cd Music/
+ 1254  ls ***ats***
+ 1255  cd ../Documents/
+ 1256  ls ***ats***
+ 1257  cd ../Videos/
+ 1258  ls ***ats***
+ 1259  cd ../Downloads/
+ 1260  ls ***ats***
+ 1261  cd
+ 1262  pycharm-community 
+ 1263  sudo pycharm-community 
+ 1264  cd PycharmProjects/EDU_ATS/
+ 1265  source bin/activate
+ 1266  pip install virtualenv
+ 1267  ls
+ 1268  cd ..
+ 1269  source bin/activate
+ 1270  EDU_ATS/
+ 1271  ls
+ 1272  cd EDU_ATS/
+ 1273  ls
+ 1274  cd ats/
+ 1275  ls
+ 1276  car requirments.txt 
+ 1277  cat requirments.txt 
+ 1278  cd ../..
+ 1279  virtualenv edu_ats
+ 1280  cd edu_ats/
+ 1281  source bin/activate
+ 1282  cd EDU_ATS/ats/
+ 1283  pip install -r requirments.txt 
+ 1284  python manage.py migrate
+ 1285  python manage.py mkaemigrations
+ 1286  python manage.py migrate
+ 1287  python manage.py runserver
+ 1288  cd PycharmProjects/edu_ats/
+ 1289  source bin/activate
+ 1290  ls
+ 1291  cd EDU_ATS/
+ 1292  ls
+ 1293  cd ats/
+ 1294  ls
+ 1295  python manage.py runserver
+ 1296  python manage.py migrate
+ 1297  python manage.py makemigrations
+ 1298  python manage.py migrate
+ 1299  python manage.py runserver
+ 1300  sudo apt-get update
+ 1301  sudo apt-get install -y putty
+ 1302  putty
+ 1303  cd Downloads/Fwd__ADVA_Post_Log_Tool/
+ 1304  python Check_Logs_ADVA_920_AG1.py 
+ 1305  python3 Check_Logs_ADVA_920_AG1.py 
+ 1306  python Check_Logs_ADVA_920_AG1.py 
+ 1307  ls
+ 1308  python Integration_Post_Check_Logs_Ver_1_0_1_ADVA_920_AG1.py 
+ 1309  python
+ 1310  python Integration_Post_Check_Logs_Ver_1_0_1_ADVA_920_AG1.py 
+ 1311  python Check_Logs_ADVA_920_AG1.py
+ 1312  python
+ 1313  python Check_Logs_ADVA_920_AG1.py
+ 1314  python Integration_Post_Check_Logs_Ver_1_0_1_ADVA_920_AG1.py 
+ 1315  python Check_Logs_ADVA_920_AG1.py
+ 1316  python Integration_Post_Check_Logs_Ver_1_0_1_ADVA_920_AG1.py 
+ 1317  cd Downloads/Fwd__ADVA_Post_Log_Tool/
+ 1318  python Check_Logs_ADVA_920_AG1.py
+ 1319  cd
+ 1320  cd Documents/Parser/
+ 1321  python3 parse_cli_output.py 
+ 1322  python parse_cli_output.py 
+ 1323  python3 parse_cli_output.py 
+ 1324  cd Documents/Parser/
+ 1325  sudo chmod 777 cisco_xr_show_vrf_detail.template
+ 1326  python3 parse_cli_output.py 
+ 1327  cd ..
+ 1328  python3 log.py 
+ 1329  nano test.log
+ 1330  python3 log.py 
+ 1331  nano test.log
+ 1332  python3 log.py 
+ 1333  nano test.log
+ 1334  python3 log.py 
+ 1335  nano test.log
+ 1336  python3 log.py 
+ 1337  nano test.log
+ 1338  python3 log.py 
+ 1339  nano test.log
+ 1340  python3 log.py 
+ 1341  nano test.log
+ 1342  python3 log.py 
+ 1343  nano test.log
+ 1344  c Documents/
+ 1345  cd Documents/
+ 1346  python3 dec1.py 
+ 1347  python dec1.py 
+ 1348  cd Documents/
+ 1349  python dec1.py 
+ 1350  python3 dec1.py 
+ 1351  cd Parser/
+ 1352  python3 parse_cli_output.py 
+ 1353  pythohn3
+ 1354  python3
+ 1355  sudo pip install utils
+ 1356  python3
+ 1357  git clone 
+ 1358  git clone https://github.com/ipython/ipyparallel.git
+ 1359  ipython
+ 1360  udo pip install mistune
+ 1361  sudo pip install mistune
+ 1362  jupyter notebook
+ 1363  python -m pip install jupyterD
+ 1364  python -m pip install jupyter
+ 1365  jupyter notebook
+ 1366  import numpy as np
+ 1367  import pprint
+ 1368  import sys
+ 1369  if "../" not in sys.path:;   sys.path.append("../")
+ 1370  if "../" not in sys.path:; if "../" not in sys.path:;   sys.path.append("../")
+ 1371  if "../" not in sys.path:; sys.path.append("../"
+ 1372  if "../" not in sys.path:; sys.path.append("../")
+ 1373  from lib.envs.gridworld import GridworldEnv
+ 1374  import GridworldEnv
+ 1375  python3
+ 1376  jupyter
+ 1377  jupyter notebook
+ 1378  ipython
+ 1379  cd Documents/
+ 1380  mkdir AI
+ 1381  cd AI
+ 1382  mkdir AI
+ 1383  cd
+ 1384  mkdir AI
+ 1385  cd AI
+ 1386  cd Documents/Parser/
+ 1387  python3 parse_cli_output.py 
+ 1388  python3
+ 1389  cd Documents/Parser/
+ 1390  python3 parse_cli_output.py 
+ 1391  [A
+ 1392  python3 parse_cli_output.py 
+ 1393  cd Documents/Parser/
+ 1394  python3 parse_cli_output.py 
+ 1395  clear
+ 1396  python3 parse_cli_output.py 
+ 1397  clear
+ 1398  python3 parse_cli_output.py 
+ 1399  clear
+ 1400  python3 parse_cli_output.py 
+ 1401  clear
+ 1402  python3 parse_cli_output.py 
+ 1403  clear
+ 1404  python3 parse_cli_output.py 
+ 1405  cd
+ 1406  cd Dco
+ 1407  cd Documents/
+ 1408  python 2D_Array.py 
+ 1409  cd Documents/Parser/
+ 1410  python3 parse_cli_output.py 
+ 1411  cd Documents/
+ 1412  python3 test_dab.py 
+ 1413  python3
+ 1414  cd Documents/Parser/
+ 1415  python3 parse_cli_output.py 
+ 1416  cd
+ 1417  python3
+ 1418  cd Documents/
+ 1419  python3 test_dab.py 
+ 1420  python3
+ 1421  python3 test_dab.py 
+ 1422  python3
+ 1423  python3 test_dab.py 
+ 1424  ls
+ 1425  cd git clone https://github.com/ashmanpan/MoPA_Services.git
+ 1426  git clone https://github.com/ashmanpan/MoPA_Services.git
+ 1427  cd MoPA_Services/
+ 1428  sudo subl cmdmulti/
+ 1429  cd
+ 1430  cd Documents/Parser/
+ 1431  sudo chmod 777 cisco_xr_show_policy-map_interface.template
+ 1432  python3 parse_cli_output.py 
+ 1433  cd
+ 1434  cd Documents/
+ 1435  mkdir verify
+ 1436  cd verify/
+ 1437  git clone https://github.com/ashmanpan/MoPA_Services.git
+ 1438  python3 parse_cli_output.py 
+ 1439  cd ls
+ 1440  ls
+ 1441  sudo subl MoPA_Services/
+ 1442  cd
+ 1443  cd Documents/
+ 1444  mkdir twitter_like_udemy
+ 1445  cd twitter_like_udemy/
+ 1446  sudo youtube-dl -u ashmanpan@gmail.com -p ramkrishnahari https://www.udemy.com/tweetme-django/learn/v4/content
+ 1447  cd
+ 1448  sudo add-apt-repository ppa:gns3/ppa
+ 1449  sudo apt-get update
+ 1450  sudo apt-get install gns3-gui
+ 1451  gns
+ 1452  gns3
+ 1453  cd Documents/Parser/
+ 1454  cd ..
+ 1455  sudo subl Parser
+ 1456  cd Parser/
+ 1457  python3 parse_cli_output.py 
+ 1458  cd Documents/Parser/
+ 1459  python3 parse_cli_output.py 
+ 1460  cd Videos/
+ 1461  git clone 
+ 1462  git clone https://github.com/ashmanpan/MoPA_Services.git
+ 1463  git clone 
+ 1464  git clone https://github.com/NorthwoodsSoftware/GoJS.git
+ 1465  cd Documents/Parser/
+ 1466  python3 serch_word.py 
+ 1467  cd Stand\ UP/
+ 1468  ls
+ 1469  python3 image.py 
+ 1470  sudo pip3 apt-get install python3-matplotlib
+ 1471  sudo pip3 install python3sduo-matplotlib
+ 1472  sudo apt-get install python3-matplotlib
+ 1473  python3 image.py 
+ 1474  python3 video.py 
+ 1475  cd
+ 1476  cd Documents/
+ 1477  mkdir odoo_videos
+ 1478  cd odoo_videos/
+ 1479  youtube-dl https://www.youtube.com/watch?v=-rFZa7Vj9aQ
+ 1480  youtube-dl https://www.youtube.com/watch?v=jo8Lass_Pjo&t=19s
+ 1481  youtube-dl https://www.youtube.com/watch?v=UMx0AsFJYx4
+ 1482  cd Documents/Parser/
+ 1483  cd ..
+ 1484  sudo subl Parser
+ 1485  sudo chmod 777 cisco_xr_show_access-lists_{access-list-name}_usage_pfilter_location_all.template
+ 1486  sudo chmod -R 777 Parser
+ 1487  sudo chmod -r 777 Parser
+ 1488  sudo chmod -R 777 Parser
+ 1489  cd Parser/
+ 1490  python3 parse_cli_output.py 
+ 1491  cd Documents/Parser/
+ 1492  python3 parse_cli_output.py 
+ 1493  cd Documents/Parser/
+ 1494  python3 parse_cli_output.py 
+ 1495  cd ..
+ 1496  cd Parser/Stand\ UP/
+ 1497  python3 video.py 
+ 1498  python3 video_fram.py 
+ 1499  python3 video.py 
+ 1500  python3 video_fram.py 
+ 1501  q
+ 1502  python3 video_fram.py 
+ 1503  cd ..
+ 1504  python3 parse_cli_output.py 
+ 1505  python3
+ 1506  sudo pip3 install Crypto
+ 1507  sudo pip3 install pycrypto
+ 1508  cd Documents/Parser/Stand\ UP/
+ 1509  python3 AES.py 
+ 1510  python AES.py 
+ 1511  python3 video_fram.py 
+ 1512  python3 video_dect.py 
+ 1513  cd
+ 1514  cd Documents/
+ 1515  youtube-dl https://www.youtube.com/watch?v=WfdYYNamHZ8
+ 1516  mkdir udemy_4_oct
+ 1517  cd udemy_4_oct/
+ 1518  mkdir MEAN
+ 1519  cd MEAN/
+ 1520  sudo youtube-dl -u ashmanpan@gmail.com -p ramkrishnahari https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/learn/v4/content
+ 1521  cd Vid
+ 1522  cd Videos/Pirl/
+ 1523  perl first.pl 
+ 1524  cd Videos/Pirl/
+ 1525  perl first.pl 
+ 1526  cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ 1527  cd Documents/Parser/
+ 1528  python3 parse_cli_output.py 
+ 1529  python3
+ 1530  youtube-dl https://www.youtube.com/watch?v=YWnBbNj_G-U
+ 1531  youtube-dl https://www.youtube.com/watch?v=uAWWhEA57bE
+ 1532  youtube-dl https://www.youtube.com/watch?v=YjkRSlTxsZM
+ 1533  mkdir MoPA_Latest_291018
+ 1534  cd MoPA_Latest_291018/
+ 1535  git clone https://github.com/ashmanpan/MoPA_Services.git
+ 1536  cd
+ 1537  ls
+ 1538  cd Documents/
+ 1539  ls
+ 1540  ll
+ 1541  cd
+ 1542  cd Pictures/
+ 1543  ll
+ 1544  cd
+ 1545  cd PycharmProjects/
+ 1546  cd edu_ats/
+ 1547  source bin/activate
+ 1548  ls
+ 1549  cd EDU_ATS/
+ 1550  ls
+ 1551  cd ats/
+ 1552  ls
+ 1553  python3 manage.py 
+ 1554  python3 manage.py runserver
+ 1555  sudo add-apt-repository ppa:gns3/ppa
+ 1556  sudo apt-get update
+ 1557  sudo apt-get install gns3-gui
+ 1558  python3
+ 1559  gns3-server
+ 1560  python3
+ 1561  cleat
+ 1562  clear
+ 1563  python3
+ 1564  cd Documents/Parser/
+ 1565  python3 parse_cli_output.py 
+ 1566  cd PycharmProjects/edu_ats/
+ 1567  source bin/activate
+ 1568  ls
+ 1569  cd EDU_ATS/
+ 1570  python3 manage.py runserver
+ 1571  ls
+ 1572  cd ..
+ 1573  python3 manage.py runserver
+ 1574  ls
+ 1575  cd EDU_ATS/
+ 1576  ls
+ 1577  cd ats/
+ 1578  ls
+ 1579  python3 manage.py runserver
+ 1580  python3 manage.py migrate
+ 1581  python3 manage.py loadstatics
+ 1582  python3 manage.py 
+ 1583  python3 manage.py runserver
+ 1584  python3 manage.py help
+ 1585  python3 manage.py collectstatic
+ 1586  python3 manage.py help
+ 1587  python3 manage.py runserver
+ 1588  cd ..
+ 1589  ls
+ 1590  sudo subl ats
+ 1591  ipconfig
+ 1592  telnet 192.168.111.254
+ 1593  telnet 192.168.110.254
+ 1594  who
+ 1595  telnet 192.168.110.254
+ 1596  ifconfig
+ 1597  python3
+ 1598  gimp
+ 1599  GIMP
+ 1600  sudo apt-get update
+ 1601  sudo apt-get upgrade
+ 1602  sudo apt-get install  update
+ 1603  sudo apt-get install update
+ 1604  sudo apt-get update
+ 1605  sudo rm /var/lib/dpkg/lock
+ 1606  sudo dpkg --configure -a
+ 1607  sudo apt-get update
+ 1608  sudo rm /var/lib/apt/lists/
+ 1609  sudo apt-get install whatever
+ 1610  ps -e | grep -e apt -e adept | grep -v grep
+ 1611  sudo pkill -9 8141
+ 1612  sudo pkill -9 9745
+ 1613  ps -e | grep -e apt -e adept | grep -v grep
+ 1614  sudo pkill  9745
+ 1615  ps -e | grep -e apt -e adept | grep -v grep
+ 1616  sudo kill  9745
+ 1617  ps -e | grep -e apt -e adept | grep -v grep
+ 1618  sudo pkill  9745
+ 1619  ps -e | grep -e apt -e adept | grep -v grep
+ 1620  sudo pkill 9745
+ 1621  ps -e | grep -e apt -e adept | grep -v grep
+ 1622  sudo pkill 8141
+ 1623  ps -e | grep -e apt -e adept | grep -v grep
+ 1624  sudo systemctl stop apt-daily.timer
+ 1625  sudo systemctl start apt-daily.timer
+ 1626  sudo lsof /var/lib/dpkg/lock
+ 1627  sudo lsof /var/lib/apt/lists/lock
+ 1628  pgrep apt-get -a
+ 1629  sudo kill -15 8141
+ 1630  ps -e | grep -e apt -e adept | grep -v grep
+ 1631  sudo rm /var/lib/dpkg/lock 
+ 1632  sudo rm /var/cache/apt/archives/lock
+ 1633  sudo apt-get update
+ 1634  sudo apt-get upgrade
+ 1635  sudo apt autoremove
+ 1636  sudo snap install inkscape
+ 1637  cd PycharmProjects/edu_ats/
+ 1638  source bin/activate
+ 1639  ls
+ 1640  cd EDU_ATS/
+ 1641  cd ats/
+ 1642  ls
+ 1643  python manage.py startapp blog
+ 1644  ls
+ 1645  cd ..
+ 1646  ls
+ 1647  sudo subl ats
+ 1648  ls
+ 1649  cd ats/
+ 1650  ld
+ 1651  ll
+ 1652  ls
+ 1653  clear
+ 1654  ls
+ 1655  python3 manage.py runserver
+ 1656  python3 manage.py syncdb
+ 1657  ls
+ 1658  python3 manage.py syncdb
+ 1659  python3 manage.py makemigrations
+ 1660  python3 manage.py migrate
+ 1661  python3 manage.py syncdb
+ 1662  python3 manage.py help
+ 1663  python3 manage.py sqlmigrate
+ 1664  python3 manage.py syncdb
+ 1665  python3 manage.py runserver
+ 1666  python3 manage.py syncdb
+ 1667  ls
+ 1668  python3 manage.py sql blog
+ 1669  python manage.py sql blog
+ 1670  python3 manage.py sql blog
+ 1671  python3 manage.py shell
+ 1672  python3 manage.py runserver
+ 1673  python3 manage.py migrate
+ 1674  python3 manage.py runserver
+ 1675  cd PycharmProjects/edu_ats/
+ 1676  source bin/activate
+ 1677  ls
+ 1678  cd EDU_ATS/
+ 1679  sudo subl ats
+ 1680  cd ats/
+ 1681  python3 manage.py runserver
+ 1682  python3 manage.py cfrom .models import Post
+ 1683  python3 manage.py createsuperuser
+ 1684  python3 manage.py runserver
+ 1685  python3 manage.py shell
+ 1686  python3 manage.py runserver
+ 1687  python3 manage.py shell
+ 1688  python3 manage.py runserver
+ 1689  ls
+ 1690  cd ..
+ 1691  cd ats/
+ 1692  git status
+ 1693  git init
+ 1694  git add -all
+ 1695  git add --all
+ 1696  git status
+ 1697  $ git commit -m "add Blog and use class based view"
+ 1698  git push -u origin master
+ 1699  git push
+ 1700  git push origin master
+ 1701  git status
+ 1702  git push -U origin master
+ 1703  git push -u origin master
+ 1704  git push 
+ 1705  ll
+ 1706  cd ..
+ 1707  ls
+ 1708  ll
+ 1709  git add --all
+ 1710  $ git commit -m "add Blog and use class based view"
+ 1711  git status
+ 1712  $ git commit -m "add Blog and use class based view"
+ 1713  git commit -m "add Blog and use class based view"
+ 1714  git push -u origin master
+ 1715  cd ats/
+ 1716  python3 manage.py runserver
+ 1717  sudo pip3 install sendemail
+ 1718  python3 manage.py runserver
+ 1719  cd ..
+ 1720  git add --all
+ 1721  git commit -m "add send email function"
+ 1722  git push -u origin master
+ 1723  vf
+ 1724  c
+ 1725  cd
+ 1726  cd Downloads/CloseLoopMonitoringPython-master/
+ 1727  python3 manage.py runserver
+ 1728  python3 manage.py migrate
+ 1729  python3 manage.py runserver
+ 1730  telnet 192.168.110.254
+ 1731  cd PycharmProjects/edu_ats/EDU_ATS/
+ 1732  source bin/activate
+ 1733  cd ..
+ 1734  source bin/activate
+ 1735  cd EDU_ATS/ats/
+ 1736  python3 manage.py runserver
+ 1737  cd PycharmProjects/edu_ats/EDU_ATS/
+ 1738  sudo subl ats
+ 1739  cd ..
+ 1740  source bin/activate
+ 1741  cd EDU_ATS/ats/
+ 1742  python3 manage.py runserver
+ 1743  python3 manage.py collectstatic
+ 1744  python3 manage.py help
+ 1745  python3 manage.py collectstatic
+ 1746  python3 manage.py runserver
+ 1747  python3 manage.py collectstatic
+ 1748  python3 manage.py runserver
+ 1749  python3 manage.py collectstatic
+ 1750  python3 manage.py runserver
+ 1751  python3 manage.py collectstatic
+ 1752  python3 manage.py runserver
+ 1753  https://github.com/mdbootstrap/bootstrap-material-design.git
+ 1754  cd
+ 1755  git clone https://github.com/mdbootstrap/bootstrap-material-design.git
+ 1756  npm install mdbootstrap
+ 1757  npm install -g npm
+ 1758  sudo npm install -g npm
+ 1759  sudo npm install mdbootstrap
+ 1760  cd udemy_0311
+ 1761  mkdir udemy_0311
+ 1762  cd udemy_0311/
+ 1763  mkdir udemy_Ansible for Network Engineers: Quick Start GNS3 & Ansible
+ 1764  ls
+ 1765  em Engineers\:/
+ 1766  rm Engineers\:/
+ 1767  rm -r Engineers\:/
+ 1768  ls
+ 1769  rm -r for
+ 1770  rm -r GNS3/
+ 1771  rm -r Quick/
+ 1772  rm -r Start/
+ 1773  rm -r udemy_Ansible/
+ 1774  mkdie udemy_ansilbe_for_network_engineers_Install_gns3
+ 1775  mkdir udemy_ansilbe_for_network_engineers_Install_gns3
+ 1776  cd udemy_ansilbe_for_network_engineers_Install_gns3/
+ 1777  sudo youtube-dl -u ashmanpan@gmail.com -p ramkrishnahari https://www.udemy.com/ansible-for-network-engineers-cisco-quick-start-gns3-ansible/learn/v4/content
+ 1778  cd PycharmProjects/edu_ats/EDU_ATS/
+ 1779  ls
+ 1780  cd ..
+ 1781  source bin/activate
+ 1782  cd EDU_ATS/
+ 1783  sudo subl ats
+ 1784  ls
+ 1785  cd ..
+ 1786  ls
+ 1787  cd EDU_ATS/
+ 1788  ls
+ 1789  cd ats/
+ 1790  python3 manage.py runserver
+ 1791  python3 manage.py collectstatic
+ 1792  python3 manage.py migrate
+ 1793  python3 manage.py runserver
+ 1794  python3 manage.py collectstatic
+ 1795  python3 manage.py runserver
+ 1796  cd ..
+ 1797  sudo subl ats
+ 1798  cd ats/
+ 1799  python3 manage.py runserver
+ 1800  cd euro2/
+ 1801  python3 client1py-51880.py 
+ 1802  pws
+ 1803  pwd
+ 1804  python3 client1py-51880.py 
+ 1805  cd PycharmProjects/edu_ats/
+ 1806  source bin/activate
+ 1807  cd EDU_ATS/
+ 1808  ls
+ 1809  cd ats/
+ 1810  ls
+ 1811  python3 manage.py runserver
+ 1812  cd ..
+ 1813  python3 manage.py runserver
+ 1814  ls
+ 1815  cd ats/
+ 1816  python3 manage.py runserver
+ 1817  cd PycharmProjects/edu_ats/
+ 1818  source bin/activate
+ 1819  cd EDU_ATS/ats/
+ 1820  ls
+ 1821  python3 manage.py runserver
+ 1822  cd 
+ 1823  cd Documents/
+ 1824  sudo subl Parser
+ 1825  cd Pa
+ 1826  cd Parser/
+ 1827  python3 parse_cli_output.py 
+ 1828  cd
+ 1829  docker pull tensorflow/tensorflow
+ 1830  sudo apt install docker.io
+ 1831  docker run -it -p 8888:8888 tensorflow/tensorflow
+ 1832  docker run
+ 1833  docker run --help
+ 1834  docker pull tensorflow/tensorflow                  # Download latest image
+ 1835  cd odoo/
+ 1836  sudo youtube-dl https://www.youtube.com/watch?v=1EnM1ZDnswM
+ 1837  cd ..
+ 1838  sudo youtube-dl https://www.youtube.com/watch?v=1EnM1ZDnswM
+ 1839  cd odoo/
+ 1840  youtube-dl https://www.youtube.com/watch?v=MUHyPSwCU4g
+ 1841  sudo youtube-dl https://www.youtube.com/watch?v=MUHyPSwCU4g
+ 1842  cd
+ 1843  cd tensorflow/
+ 1844  source bin/activate
+ 1845  pip install tensorflow
+ 1846  pip3 install tensorflow
+ 1847  sudo pip3 install tensorflow
+ 1848  virtualenv invitaion
+ 1849  cd invitaion/
+ 1850  source bin/activate
+ 1851  sudo pip install flask
+ 1852  deactivate 
+ 1853  cd
+ 1854  sudo rm -r invitaion/
+ 1855  virtualenv invitaion
+ 1856  cd invitaion/
+ 1857  source bin/activate
+ 1858  sudo pip3 install djanog
+ 1859  sudo pip3 install django
+ 1860  pipe freeze
+ 1861  pip3 freeze
+ 1862  sudo pip3 install django
+ 1863  pip3 freeze
+ 1864  pip freeze
+ 1865  pip3 freeze
+ 1866  sudo pip3 freeze
+ 1867  ls
+ 1868  pip freezedjango-admin --version
+ 1869  sudo pip3 install django
+ 1870  sudo pip install django
+ 1871  python -V
+ 1872  sudo pip install django
+ 1873  pip install django
+ 1874  django-admin startproject testsite
+ 1875  sudo rm -r testsite/
+ 1876  django-admin startproject myapp
+ 1877  cd myapp/
+ 1878  ls
+ 1879  python manage.py invitaion
+ 1880  python manage.py createapp invitaion
+ 1881  python manage.py startapp invitaion
+ 1882  cd ..
+ 1883  sudo subl myapp/
+ 1884  cd myapp/
+ 1885  ls
+ 1886  python manage.py makemigrations
+ 1887  python manage.py migrate
+ 1888  python manage.py runserver
+ 1889  cd invitaion/
+ 1890  source bin/activate
+ 1891  cd myapp/
+ 1892  ls
+ 1893  cd ..
+ 1894  sudo subl myapp/
+ 1895  cd myapp/
+ 1896  ls
+ 1897  python manage.py runserver
+ 1898  cd invitaion/
+ 1899  source bin/activate
+ 1900  sudo subl myapp/
+ 1901  cd myapp/
+ 1902  pyhton manage.py runserver
+ 1903  python manage.py runserver
+ 1904  ls
+ 1905  ll
+ 1906  sudo chown -r infinity infinity static/
+ 1907  sudo chown -R infinity infinity static/
+ 1908  sudo chown -r infinity:infinity static/
+ 1909  sudo chown -R infinity:infinity static/
+ 1910  ll
+ 1911  cd ..
+ 1912  cd include/
+ 1913  cd ..
+ 1914  cd myapp/invitaion/
+ 1915  sudo chown -R infinity:infinity templates/
+ 1916  cd ../..
+ 1917  ls
+ 1918  cd myapp/
+ 1919  python manage.py runserver
+ 1920  cd
+ 1921  ls
+ 1922  cd /etc/samba
+ 1923  cd /etc/
+ 1924  ls
+ 1925  sudo apt install samba
+ 1926  cd samba/
+ 1927  ls
+ 1928  vi smb.conf 
+ 1929  cd
+ 1930  cd Downloads/
+ 1931  git clone 
+ 1932  git clone https://github.com/madhurprem1/invitaion.git
+ 1933  cd invitaion/myapp/
+ 1934  git init
+ 1935  git add --all
+ 1936  git commit -m "first commit"
+ 1937  git remote add origin https://github.com/madhurprem1/myapp.git
+ 1938  git push -u origin master
+ 1939  ls
+ 1940  python manage.py collectstatic
+ 1941  python3 manage.py collectstatic
+ 1942  heroku create
+ 1943  git push heroku master
+ 1944  heroku ps:scale web=1
+ 1945  heroku open
+ 1946  heroku ps:scale web=1
+ 1947  heroku ps:scale web=1 -a
+ 1948  heroku ps:scale web=1 -app myapp
+ 1949  pip3 install -r requirements.txt
+ 1950  ls
+ 1951  pip3 install -r requirements.txt
+ 1952  sudo pip3 install -r requirements.txt
+ 1953  python -V
+ 1954  alias python = python3
+ 1955  alias python=python3
+ 1956  python -V
+ 1957  python -Vsource ~/.bashrc
+ 1958  source ~/.bashrc
+ 1959  python --version
+ 1960  createdb python_getting_started
+ 1961  python manage.py migrate
+ 1962  python manage.py collectstatic
+ 1963  """
+Django settings for myapp project.
+
+Generated by 'django-admin startproject' using Django 2.1.3.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/2.1/topics/settings/
+
+For the full list of settings and their values, see
+https://docs.djangoproject.com/en/2.1/ref/settings/
+"""
+ 1964  import os
+ 1965  python manage.py collectstatic
+ 1966  ls
+ 1967  cd myapp/
+ 1968  ls
+ 1969  cd ,,
+ 1970  cd ..
+ 1971  python manage.py collectstatic
+ 1972  heroku local
+ 1973  heroku login
+ 1974  python manage.py migrate
+ 1975  python manage.py collectstatic
+ 1976  heroku local
+ 1977  run --help
+ 1978  --help
+ 1979  heroku create
+ 1980  git push heroku master
+ 1981  git --version
+ 1982  git config --list
+ 1983  git config user.name
+ 1984  heroku login
+ 1985  heroku create somu2
+ 1986  git push heroku master
+ 1987  heroku create
+ 1988  git push heroku master
+ 1989  git clone https://github.com/heroku/python-getting-started.gi
+ 1990  git clone https://github.com/heroku/python-getting-started.git
+ 1991  cd python-getting-started/
+ 1992  ls
+ 1993  pip install requirements.txt 
+ 1994  sudo pip install requirements.txt 
+ 1995  sudo pip3 install requirements.txt 
+ 1996  ls
+ 1997  heroku create
+ 1998  cd ..
+ 1999  sudo snap install heroku --classic
+ 2000  sudo apt install heroku --classic
+ 2001  sudo apt install heroku
+ 2002  heroku create
+ 2003  git push heroku master
+ 2004  git
+ 2005  git -h
+ 2006  git push heroku master
+ 2007  git init
+ 2008  git add .
+ 2009  git commit -m "My first commit"
+ 2010  heroku create
+ 2011* git remote -a
+ 2012  heroku git:remote -a frozen-atoll-87215
+ 2013  git remote rename heroku heroku-staging
+ 2014  git push heroku master
+ 2015  git push heroku-staging  master
+ 2016  heroku login
+ 2017  heroku git:remote -a frozen-atoll-87215
+ 2018  git push heroku master
+ 2019  pip freeze
+ 2020  git push heroku master
+ 2021  sudo pip install whitenoise
+ 2022  pip install whitenoise
+ 2023  pip install whitenoise==3.3.1
+ 2024  ls
+ 2025  pip install -r requirements.txt 
+ 2026  python manage.py runserver
+ 2027  git push heroku master
+ 2028  python manage.py collectstatic
+ 2029  git push heroku master
+ 2030  python manage.py collectstatic --noinput
+ 2031  python -V
+ 2032  pwd
+ 2033  python2 manage.py collectstatic
+ 2034  python2.7 manage.py collectstatic
+ 2035  git push heroku master
+ 2036  heroku config:set DISABLE_COLLECTSTATIC=1
+ 2037  pwdheroku config:unset DISABLE_COLLECTSTATIC
+ 2038  heroku config:unset DISABLE_COLLECTSTATIC
+ 2039  heroku run python manage.py migrate
+ 2040  git status
+ 2041  git add .
+ 2042  git commit -m ""
+ 2043  git commit -m "aa"
+ 2044  git push heroku master
+ 2045  git add .
+ 2046  git commit -m ""
+ 2047  git commit -m "ss"
+ 2048  git push heroku master
+ 2049  heroku logs -n 200
+ 2050  heroku logs --tail
+ 2051  heroku logs --source myapp --tail
+ 2052  heroku --help
+ 2053  heroku run rails c --app myapp
+ 2054  heroku run rails c --app frozen-atoll-87215
+ 2055  heroku logs --tail
+ 2056  git push heroku-staging  master
+ 2057  git push heroku master
+ 2058  heroku ps:scale web=1
+ 2059  heroku config
+ 2060  git branch
+ 2061  heroku git:remote -a frozen-atoll-87215
+ 2062  git remote
+ 2063  git delete heroku-staging
+ 2064  git del heroku-staging
+ 2065  git remove heroku-staging
+ 2066  git --help
+ 2067  git rm heroku-staging
+ 2068  git branch -d heroku-staging
+ 2069  git branch 
+ 2070  git remote
+ 2071  git remote rm heroku-staging
+ 2072  git remote
+ 2073  git push heroku master
+ 2074  history
+ 2075  heroku open
+ 2076  heroku logs --tail
+ 2077  git add .
+ 2078  git commit -m "three"
+ 2079  git push heroku master
+ 2080  git add .
+ 2081  git commit -m "three"
+ 2082  git push heroku master
+ 2083  git add .
+ 2084  git commit -m "three"
+ 2085  git push heroku master
+ 2086  heroku logs tail -g
+ 2087  heroku logs tail -f
+ 2088  heroku tail -f
+ 2089  y
+ 2090  heroku logs --tail
+ 2091  heroku ps:scale web=1
+ 2092  git commit --allow-empty -m "Adjust buildpacks on Heroku"
+ 2093  git push heroku master
+ 2094  heroku logs --tail
+ 2095  python -V
+ 2096  sudo add-apt-repository ppa:deadsnakes/ppa
+ 2097  sudo apt-get update
+ 2098  sudo apt-get install python3.6
+ 2099  python -V
+ 2100  alias python=python3.6
+ 2101  python -V
+ 2102  source ~/.bashrc
+ 2103  heroku ps:scale web=1 --app frozen-atoll-87215
+ 2104  web: gunicorn dep:app
+ 2105  web: gunicorn dep:frozen-atoll-87215
+ 2106  heroku ps:scale web=1
+ 2107  gedit Procfile
+ 2108  git add .
+ 2109  git commit -m "Heroku"
+ 2110  git push heroku master
+ 2111  heroku logs --tail
+ 2112  pip install gunicorn
+ 2113  sudo pip install gunicorn
+ 2114  pip freeze
+ 2115  git add .
+ 2116  git commit -m "Heroku four"
+ 2117  git push heroku master
+ 2118  heroku logs --tail
+ 2119  git add .
+ 2120  git commit -m "Heroku five"
+ 2121  git push heroku master
+ 2122  heroku logs --tail
+ 2123  git add .
+ 2124  git commit -m "Heroku five"
+ 2125  git push heroku master
+ 2126  heroku logs --tail
+ 2127  git add .
+ 2128  git commit -m "Heroku five"
+ 2129  git push heroku master
+ 2130  heroku logs --tail
+ 2131  heroku config:set WEB_CONCURRENCY=3
+ 2132  git add .
+ 2133  git commit -m "Heroku five"
+ 2134  git push heroku master
+ 2135  heroku logs --tail
+ 2136  git add .
+ 2137  git commit -m "Heroku five"
+ 2138  git push heroku master
+ 2139  heroku logs --tail
+ 2140  git add .
+ 2141  git commit -m "Heroku five"
+ 2142  git push heroku master
+ 2143  heroku logs --tail
+ 2144  git add .
+ 2145  git commit -m "Heroku five1"
+ 2146  git push heroku master
+ 2147  heroku logs --tail
+ 2148  git add .
+ 2149  git commit -m "Heroku five1"
+ 2150  git push heroku master
+ 2151  heroku logs --tail
+ 2152  git add .
+ 2153  git commit -m "Heroku five1"
+ 2154  git push heroku master
+ 2155  git add .
+ 2156  git commit -m "Heroku five1"
+ 2157  git push heroku master
+ 2158  git add .
+ 2159  git commit -m "Heroku five1"
+ 2160  git push heroku master
+ 2161  git add .
+ 2162  git commit -m "Heroku five1"
+ 2163  git push heroku master
+ 2164  git add .
+ 2165  git commit -m "Heroku five1"
+ 2166  git push heroku master
+ 2167  git add .
+ 2168  git commit -m "Heroku five1"
+ 2169  git push heroku master
+ 2170  git add .
+ 2171  git commit -m "Heroku five1"
+ 2172  git push heroku master
+ 2173  history
+ 2174  history >> history.txt
